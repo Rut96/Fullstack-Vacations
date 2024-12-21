@@ -1,0 +1,199 @@
+.Menu {
+    position: relative;
+}
+
+/*  ------------------------------- Desktop Styles ------------------------------- */
+
+.desktop-menu {
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.menu-link {
+    color: var(--primary-color-light);
+    text-decoration: none;
+    padding: 0.75rem 1.25rem;
+    border-radius: 8px;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    font-weight: 500;
+    font-size: 1rem;
+    position: relative;
+}
+
+.menu-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0.5rem;
+    left: 1.25rem;
+    right: 1.25rem;
+    height: 2px;
+    background-color: var(--primary-color-light);
+    transform: scaleX(0);
+    transition: transform 0.3s ease;
+}
+
+.menu-link:hover::after,
+.menu-link.active::after {
+    transform: scaleX(1);
+}
+
+.menu-link:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.menu-link.active {
+    background-color: rgba(255, 255, 255, 0.15);
+    font-weight: 600;
+}
+
+/* ------------------------------- Auth Styles ------------------------------- */
+
+.auth {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto;
+    padding: 0.25rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+}
+
+.auth .menu-link {
+    padding: 0.5rem 1.25rem;
+}
+
+.auth .menu-link:last-child {
+    background-color: var(--primary-color-light);
+    color: var(--primary-color-dark);
+}
+
+.auth .menu-link:last-child:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* ------------------------------- Mobile Menu Styles ------------------------------- */
+
+.burger-button {
+    display: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+@media (max-width: 1042px) {
+    .desktop-menu {
+        display: none;
+    }
+
+    .burger-button {
+        display: flex;
+        position: fixed;
+        top: 1rem;
+        right: 1rem;
+        z-index: 1001;
+        background: none;
+        border: none;
+        color: var(--primary-color-light);
+        cursor: pointer;
+        padding: 0.5rem;
+        transition: transform 0.3s ease;
+    }
+
+    .burger-button:hover {
+        transform: scale(1.1);
+    }
+
+    .mobile-menu {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: -100%;
+        height: 100vh;
+        width: 80%;
+        max-width: 320px;
+        background: linear-gradient(to bottom right, rgba(47, 73, 142, 0.95), rgba(47, 73, 142, 0.98));
+        backdrop-filter: blur(10px);
+        transition: right 0.3s ease-in-out;
+        z-index: 1000;
+    }
+
+    .mobile-menu.open {
+        right: 0;
+    }
+
+    .menu-content {
+        padding: 5rem 1.5rem 2rem;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+        height: 100%;
+        overflow-y: auto;
+    }
+
+    .menu-backdrop {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.5);
+        backdrop-filter: blur(3px);
+        z-index: 999;
+        animation: fadeIn 0.3s ease-out;
+    }
+
+    .mobile-auth {
+        margin-top: auto;
+        padding: 1rem 0;
+        display: flex;
+        flex-direction: column;
+        gap: 0.75rem;
+    }
+
+    .mobile-auth .menu-link {
+        width: 100%;
+        text-align: center;
+        background: rgba(255, 255, 255, 0.1);
+    }
+
+    .mobile-auth .sign-up {
+        background-color: var(--primary-color-light);
+        color: var(--primary-color-dark);
+    }
+
+    /* ------------------------------- Mobile Animation ------------------------------- */
+    .menu-content .menu-link {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+
+    .mobile-menu.open .menu-link {
+        animation: slideIn 0.3s ease-out forwards;
+    }
+
+    .mobile-menu.open .menu-link:nth-child(1) { animation-delay: 0.1s; }
+    .mobile-menu.open .menu-link:nth-child(2) { animation-delay: 0.15s; }
+    .mobile-menu.open .menu-link:nth-child(3) { animation-delay: 0.2s; }
+    .mobile-menu.open .menu-link:nth-child(4) { animation-delay: 0.25s; }
+    .mobile-menu.open .menu-link:nth-child(5) { animation-delay: 0.3s; }
+    .mobile-menu.open .menu-link:nth-child(6) { animation-delay: 0.35s; }
+}
+
+@keyframes slideIn {
+    from {
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}

@@ -1,0 +1,109 @@
+# running docker compose: 
+# docker compose up -d
+
+# running docker compose + rebuilding image: 
+# docker compose up -d --build
+
+# stopping container:
+# docker compose down
+
+# any app we need to dockerize:
+services:
+
+  # Our database service: 
+  database-service:
+
+    image: vanrut/rootroute-database-image:1.0
+
+    # Dockerfile location:
+    build: ./Database
+
+    # Container name:
+    container_name: rootroute-database-container
+
+    restart: unless-stopped
+
+    # volumes: 
+    volumes:
+      - rootroute-volume:/var/lib/mysql
+
+    # enviroment variabls for database
+    environment:
+      MYSQL_HOST: localhost
+      MYSQL_USER: Alice
+      MYSQL_PASSWORD: Wonderland
+      MYSQL_DATABASE: root-route
+      MYSQL_ROOT_PASSWORD: Wonderland # Needed by MySQL image
+
+    # Check every 5 sec if db is up and runnig
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "127.0.0.1"] # mysqladmin ping -h localhost
+      interval: 5s # time to wait betweeen checks
+      timeout: 5s # tim eto wait until current check considered as failed 
+      retries: 24
+
+  # ---------------------------------------------------------------
+
+  # our backend:
+  backend-service:
+
+    # wait until db healthchaeck success and then start:
+    depends_on:
+      database-service:
+        condition: service_healthy
+
+    # image name: 
+    image: vanrut/rootroute-backend-image:1.0
+
+    # Dockerfile location:
+    build: ./Backend
+
+    # Container name:
+    container_name: rootroute-backend-container
+
+    # port mapping:
+    ports:
+      - 4000:4000
+
+    # when container stops = what to do:
+    # unless-stopped --> if i stopoing - stop, if was crush - don't stop
+    restart: unless-stopped
+
+    # volumes: 
+    volumes:
+      - ./Backend/src:/app/src # host volume to src folder --> this is trick for hot-reloading
+
+    # enviroment variabls for database
+    environment:
+      MYSQL_HOST: database-service # this is the network name of the database container computer
+      MYSQL_USER: Alice
+      MYSQL_PASSWORD: Wonderland
+      MYSQL_DATABASE: root-route
+      MYSQL_ROOT_PASSWORD: Wonderland
+  # ---------------------------------------------------------------
+  
+  # Our frontend service: 
+  frontend-service:
+
+    depends_on:
+      - backend-service
+    
+    image: vanrut/rootroute-frontend-image:1.0
+
+    build: ./Frontend
+
+    container_name: rootroute-frontend-container
+
+    ports:
+      - 3100:3000  # 3000 -> port of React
+
+    restart: unless-stopped
+
+    volumes:
+      - ./Frontend/src:/app/src  # hot-reloading
+
+# ---------------------------------------------------------------------------------------------
+# list all names volumes: 
+volumes:
+  rootroute-volume:
+

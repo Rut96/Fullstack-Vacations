@@ -1,0 +1,178 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+:root {
+    --primary-color-light: #a8d8cd;
+    --primary-color-dark: #17283d;
+
+    --accent-color: #FF9776;
+    --accent-color-light: #FFB4A1;
+    --overlay-light: rgba(255, 255, 255, 0.1);
+    --overlay-dark: rgba(23, 40, 61, 0.85);
+    --text-light: #FFFFFF;
+    --text-muted: rgba(255, 255, 255, 0.7);
+
+    --gradient-cool: linear-gradient(135deg, #2980B9, #6DD5FA,white);
+}
+
+
+html, body, #root {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Playfair Display", sans-serif;
+}
+
+/* Main popup styling */
+.swal2-popup {
+    background: rgba(47, 72, 142, 0.763) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 20px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25) !important;
+    padding: 2rem !important;
+}
+
+/* Title styling */
+.swal2-title {
+    color: white !important;
+    font-size: 1.75rem !important;
+    font-weight: 600 !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Content styling */
+.swal2-html-container {
+    color: rgba(255, 255, 255, 0.9) !important;
+    font-size: 1.1rem !important;
+    line-height: 1.6 !important;
+    margin-top: 0.5rem !important;
+}
+
+/* Success icon */
+.swal2-icon.swal2-success {
+    border-color: #4ade80 !important;
+    color: #4ade80 !important;
+}
+
+.swal2-icon.swal2-success [class^='swal2-success-line'] {
+    background-color: #4ade80 !important;
+}
+
+.swal2-icon.swal2-success .swal2-success-ring {
+    border-color: rgba(74, 222, 128, 0.3) !important;
+}
+
+/* Error icon */
+.swal2-icon.swal2-error {
+    border-color: #f87171 !important;
+    color: #f87171 !important;
+}
+
+.swal2-icon.swal2-error [class^='swal2-x-mark-line'] {
+    background-color: #f87171 !important;
+}
+
+/* Warning icon */
+.swal2-icon.swal2-warning {
+    border-color: #fbbf24 !important;
+    color: #fbbf24 !important;
+}
+
+/* Info icon */
+.swal2-icon.swal2-info {
+    border-color: #60a5fa !important;
+    color: #60a5fa !important;
+}
+
+/* Question icon */
+.swal2-icon.swal2-question {
+    border-color: #a78bfa !important;
+    color: #a78bfa !important;
+}
+
+/* Buttons styling */
+.swal2-confirm {
+    background: rgba(255, 255, 255, 0.9) !important;
+    color: #2f498e !important;
+    border-radius: 50px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1) !important;
+}
+
+.swal2-confirm:hover {
+    transform: translateY(-2px) !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.swal2-cancel {
+    background: rgba(255, 255, 255, 0.1) !important;
+    color: white !important;
+    border-radius: 50px !important;
+    padding: 0.75rem 2rem !important;
+    font-weight: 600 !important;
+    transition: all 0.3s ease !important;
+    backdrop-filter: blur(5px) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.swal2-cancel:hover {
+    background: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-2px) !important;
+}
+
+/* Timer progress bar */
+.swal2-timer-progress-bar {
+    background: rgba(255, 255, 255, 0.3) !important;
+}
+
+/* Close button */
+.swal2-close {
+    color: rgba(255, 255, 255, 0.6) !important;
+    transition: all 0.3s ease !important;
+}
+
+.swal2-close:hover {
+    color: white !important;
+    transform: rotate(90deg) !important;
+}
+
+/* Input styling */
+.swal2-input,
+.swal2-textarea {
+    background: rgba(255, 255, 255, 0.1) !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    color: white !important;
+    border-radius: 12px !important;
+    padding: 0.75rem 1rem !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.swal2-input:focus,
+.swal2-textarea:focus {
+    box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3) !important;
+    border-color: rgba(255, 255, 255, 0.5) !important;
+}
+
+/* Radio and checkbox styling */
+.swal2-radio,
+.swal2-checkbox {
+    color: white !important;
+}
+
+/* Toast notification styling */
+.swal2-toast {
+    background: rgba(47, 73, 142, 0.95) !important;
+    backdrop-filter: blur(10px) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.2) !important;
+    padding: 1rem !important;
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1) !important;
+}
+
+.swal2-toast .swal2-title {
+    font-size: 1rem !important;
+    margin: 0 !important;
+}

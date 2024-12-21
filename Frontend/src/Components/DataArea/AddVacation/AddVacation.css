@@ -1,0 +1,268 @@
+.AddVacation {
+    padding: 2rem;
+}
+/* ------------------------------- Header ------------------------------- */
+
+.AddVacation .card-header {
+    text-align: center;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    backdrop-filter: blur(10px);
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.AddVacation .card-title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #1a365d;
+    margin-bottom: 0.75rem;
+}
+
+.AddVacation .card-description {
+    color: #64748b;
+    font-size: 1.1rem;
+    line-height: 1.5;
+}
+
+/* ------------------------------- Form ------------------------------- */
+
+.AddVacation .vacation-form {
+    display: flex;
+    gap: 2rem;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.AddVacation .form-section {
+    flex: 1;
+    background: white;
+    padding: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+.AddVacation .form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.AddVacation .form-group label {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.95rem;
+    font-weight: 500;
+    color: #2d3748;
+}
+
+.AddVacation .form-group label svg {
+    color: #4a5568;
+}
+
+.AddVacation .form-group input,
+.AddVacation .form-group textarea {
+    padding: 0.875rem 1rem;
+    border: 1.5px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 0.95rem;
+    transition: all 0.2s ease;
+    color: #2d3748;
+    background-color: white;
+}
+
+.AddVacation .form-group input:hover,
+.AddVacation .form-group textarea:hover {
+    border-color: #cbd5e0;
+}
+
+.AddVacation .form-group input:focus,
+.AddVacation .form-group textarea:focus {
+    outline: none;
+    border-color: #3182ce;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.1);
+}
+
+.AddVacation .form-group textarea {
+    min-height: 300px;
+    resize: vertical;
+}
+
+.AddVacation .date-container {
+    background: #f8fafc;
+    padding: 1.5rem;
+    border-radius: 12px;
+    margin-bottom: 2rem;
+}
+
+.AddVacation .file-upload-group {
+    margin-bottom: 2rem;
+}
+
+
+/* ------------------------------- File input styling ------------------------------- */
+
+.AddVacation .upload-button {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.75rem 1.5rem;
+    background-color: #3182ce;
+    color: white;
+    border-radius: 8px;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease;
+}
+
+.AddVacation .upload-text {
+    color: #718096;
+    font-size: 0.9rem;
+    margin-top: 0.5rem;
+}
+
+
+.AddVacation .file-input-wrapper {
+    position: relative;
+    min-height: 120px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    background-color: #f7fafc;
+    border: 2px dashed #e2e8f0;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    overflow: hidden;
+}
+
+.AddVacation .file-input-wrapper:hover {
+    border-color: #3182ce;
+    background-color: #ebf8ff;
+}
+
+.AddVacation .file-input-wrapper input[type="file"] {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.AddVacation .file-input-wrapper:hover .upload-button {
+    background-color: #2c5282;
+}
+
+.AddVacation .file-name {
+    color: #4a5568;
+    font-size: 0.9rem;
+    text-align: center;
+    word-break: break-all;
+    max-width: 100%;
+}
+
+/* ------------------------------- Number input styling ------------------------------- */
+
+/* .AddVacation .form-group input[type="number"] {
+    -moz-appearance: textfield;
+} */
+
+.AddVacation .form-group input[type="number"]::-webkit-outer-spin-button,
+.AddVacation .form-group input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* ------------------------------- Submit button ------------------------------- */
+
+.AddVacation .submit-button {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    background: linear-gradient(135deg, #3182ce 0%, #2c5282 100%);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.AddVacation .submit-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 12px rgba(49, 130, 206, 0.2);
+}
+
+.AddVacation .submit-button:active {
+    transform: translateY(0);
+}
+
+.AddVacation .submit-button:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(49, 130, 206, 0.3);
+}
+
+/* ------------------------------- Placeholder styling ------------------------------- */
+
+.AddVacation .form-group input::placeholder,
+.AddVacation .form-group textarea::placeholder {
+    color: #a0aec0;
+}
+
+/* ------------------------------- Responsive design ------------------------------- */
+
+@media (max-width: 1024px) {
+    .AddVacation .vacation-form {
+        flex-direction: column;
+    }
+
+    .AddVacation .card-header {
+        margin-bottom: 2rem;
+    }
+
+    .AddVacation .card-title {
+        font-size: 2rem;
+    }
+
+    .AddVacation .form-group textarea {
+        min-height: 150px;
+    }
+}
+
+@media (max-width: 640px) {
+    .AddVacation .vacation-container {
+        padding: 1rem;
+    }
+
+    .AddVacation .card-header {
+        padding: 1.5rem;
+    }
+
+    .AddVacation .form-section {
+        padding: 1.5rem;
+    }
+
+    .AddVacation .date-container {
+        padding: 1rem;
+    }
+
+    .AddVacation .card-title {
+        font-size: 1.75rem;
+    }
+}
+
+/* Light focus visible outline for accessibility */
+:focus-visible {
+    outline: 2px solid #3182ce;
+    outline-offset: 2px;
+}

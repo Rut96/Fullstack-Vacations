@@ -1,0 +1,1118 @@
+Time 10/31/2024, 1:19:44 PM
+Error Unknown column 'NaN' in 'where clause'
+Stick Error: Unknown column 'NaN' in 'where clause'
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 10/31/2024, 1:21:24 PM
+Error Unknown column 'NaN' in 'where clause'
+Stick Error: Unknown column 'NaN' in 'where clause'
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 10/31/2024, 1:58:20 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:09:55 PM
+Error "password" length must be at least 5 characters long
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:10:01 PM
+Error "roleId" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:16:28 PM
+Error "roleId" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:31:32 PM
+Error You are not authorized
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:47:20 PM
+Error "description" length must be less than or equal to 100 characters long
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:47:30 PM
+Error "price" must be less than or equal to 1000
+-----------------------------------------------------------
+
+Time 10/31/2024, 2:47:39 PM
+Error Incorrect datetime value: '2024-06-14T21:00:00.000Z' for column 'startDate' at row 1
+Stick Error: Incorrect datetime value: '2024-06-14T21:00:00.000Z' for column 'startDate' at row 1
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:02:21 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:02:59 PM
+Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values (default,NULL,NULL,NULL,NULL,NULL,NULL)' at line 1
+Stick Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values (default,NULL,NULL,NULL,NULL,NULL,NULL)' at line 1
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:03:24 PM
+Error You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values (default,NULL,NULL,NULL,NULL,NULL,NULL)' at line 1
+Stick Error: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'values (default,NULL,NULL,NULL,NULL,NULL,NULL)' at line 1
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:07:12 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:08:23 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:09:06 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:10:48 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:12:43 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:13:08 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:13:18 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:14:25 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:14:36 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:19:25 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:22:11 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:23:53 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:25:14 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:28:33 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:30:56 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:31:30 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:33:25 PM
+Error id undefined not found
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:35:25 PM
+Error "id" is not allowed
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:38:10 PM
+Error Route /api/vacations/17 not found.
+-----------------------------------------------------------
+
+Time 10/31/2024, 3:39:59 PM
+Error "id" is required
+-----------------------------------------------------------
+
+Time 11/2/2024, 2:13:27 PM
+Error Column 'destination' cannot be null
+Stick Error: Column 'destination' cannot be null
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 11/2/2024, 2:15:07 PM
+Error Column 'description' cannot be null
+Stick Error: Column 'description' cannot be null
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 11/2/2024, 2:34:56 PM
+Error Route /api/vacations/1 not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 2:40:10 PM
+Error "price" must be less than or equal to 1000
+-----------------------------------------------------------
+
+Time 11/2/2024, 2:58:48 PM
+Error Column 'destination' cannot be null
+Stick Error: Column 'destination' cannot be null
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 11/2/2024, 3:00:23 PM
+Error "description" length must be less than or equal to 100 characters long
+-----------------------------------------------------------
+
+Time 11/2/2024, 3:27:17 PM
+Error Route /api/vacations/NaN not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 3:27:19 PM
+Error Route /api/vacations/NaN not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 3:27:22 PM
+Error Route /api/vacations/NaN not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 4:21:24 PM
+Error Route /api/vacations/ not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 4:21:36 PM
+Error Route /api/vacations/ not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 4:23:11 PM
+Error Route /api/vacations/ not found.
+-----------------------------------------------------------
+
+Time 11/2/2024, 4:25:07 PM
+Error Incorrect datetime value: '2024-08-04T21:00:00.000Z' for column 'startDate' at row 1
+Stick Error: Incorrect datetime value: '2024-08-04T21:00:00.000Z' for column 'startDate' at row 1
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:519:28)
+    at Socket.emit (node:domain:488:12)
+    at addChunk (node:internal/streams/readable:561:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:512:3)
+-----------------------------------------------------------
+
+Time 11/5/2024, 1:05:25 PM
+Error Route /api/likes/1 not found.
+-----------------------------------------------------------
+
+Time 11/5/2024, 1:43:47 PM
+Error Route /favicon.ico not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 11:58:53 AM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:02:13 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:02:15 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:02:59 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:03:00 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:17:15 PM
+Error Route /api/likes/ not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:20:37 PM
+Error Route /api/likes//undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:24:05 PM
+Error Route /api/likes//undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:29:33 PM
+Error Route /api/likes//undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:30:45 PM
+Error Route /api/likes//undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:37:59 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:44:30 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:46:48 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:47:00 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:54:47 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:55:10 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:55:12 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:56:04 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 2:56:05 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:08:10 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:08:38 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:11:11 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:11:19 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:11:45 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:11:46 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:12:19 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:13:36 PM
+Error Route /api/likes/undefined not found.
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:50:24 PM
+Error Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+-----------------------------------------------------------
+
+Time 11/7/2024, 3:50:40 PM
+Error Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+-----------------------------------------------------------
+
+Time 11/10/2024, 4:14:47 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 4:57:50 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 4:57:53 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:01:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:01:20 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:01:28 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:08:21 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:08:25 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:08:33 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:08:35 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:09:13 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:09:18 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:09:20 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:09:37 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:10:53 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:11:03 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:12:16 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/10/2024, 5:13:06 PM
+Error You are not logged in!!
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:30 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:30 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:30 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:30 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:42 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:42 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:42 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:47:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:48:21 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:48:21 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:51:15 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:52:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:53:19 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:54:43 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error Route /login not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:55:58 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:57:57 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:13 AM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:21 AM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 11:59:34 AM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:00:36 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:05:19 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:07:10 PM
+Error Route /api/vacations/undefined not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:25:44 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:25:44 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:27:53 PM
+Error Duplicate entry '6-68' for key 'likes.PRIMARY'
+Stick Error: Duplicate entry '6-68' for key 'likes.PRIMARY'
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:27:53 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:27:53 PM
+Error Cannot add or update a child row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot add or update a child row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:27:53 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:27:53 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:30:39 PM
+Error Duplicate entry '6-73' for key 'likes.PRIMARY'
+Stick Error: Duplicate entry '6-73' for key 'likes.PRIMARY'
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:30:39 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:30:39 PM
+Error Cannot add or update a child row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot add or update a child row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+    at Socket.Readable.push (node:internal/streams/readable:390:5)
+    at TCP.onStreamRead (node:internal/stream_base_commons:189:23)
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:30:39 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 12:30:39 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:42:56 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:43:25 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:43:30 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:43:33 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:44:14 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:44:34 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:44:44 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:44:44 PM
+Error Route /favicon.ico not found.
+-----------------------------------------------------------
+
+Time 11/14/2024, 1:45:07 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:08:31 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:22:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:13:45 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:15:12 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:15:54 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:17:02 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:17:13 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:17:29 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:20:30 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:22:02 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:25:48 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/14/2024, 2:29:07 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 11/24/2024, 12:28:49 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 11/24/2024, 12:29:00 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 12/4/2024, 12:19:59 PM
+Error Email already exists
+Stick Error: Email already exists
+    at register (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/src/5-controllers/user-controller.ts:21:23)
+    at processTicksAndRejections (node:internal/process/task_queues:105:5)
+-----------------------------------------------------------
+
+Time 12/4/2024, 12:21:57 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 12/4/2024, 12:24:28 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 12/13/2024, 2:46:30 PM
+Error You are not logged in
+-----------------------------------------------------------
+
+Time 12/13/2024, 3:23:06 PM
+Error Incorrect email or password
+-----------------------------------------------------------
+
+Time 12/13/2024, 3:23:29 PM
+Error Duplicate entry '7-97' for key 'likes.PRIMARY'
+Stick Error: Duplicate entry '7-97' for key 'likes.PRIMARY'
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+-----------------------------------------------------------
+
+Time 12/15/2024, 9:31:57 PM
+Error Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+-----------------------------------------------------------
+
+Time 12/15/2024, 9:34:00 PM
+Error Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+Stick Error: Cannot delete or update a parent row: a foreign key constraint fails (`root-route`.`likes`, CONSTRAINT `vacationId` FOREIGN KEY (`vacationId`) REFERENCES `vacations` (`id`) ON DELETE RESTRICT ON UPDATE RESTRICT)
+    at Packet.asError (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packets/packet.js:738:17)
+    at Query.execute (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/commands/command.js:29:26)
+    at PoolConnection.handlePacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:481:34)
+    at PacketParser.onPacket (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:97:12)
+    at PacketParser.executeStart (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/packet_parser.js:75:16)
+    at Socket.<anonymous> (/Users/rutli/Desktop/FSLearning/HomeWork/Projects/15 - Root for Route/Backend/node_modules/mysql2/lib/connection.js:104:25)
+    at Socket.emit (node:events:507:28)
+    at Socket.emit (node:domain:489:12)
+    at addChunk (node:internal/streams/readable:559:12)
+    at readableAddChunkPushByteMode (node:internal/streams/readable:510:3)
+-----------------------------------------------------------
+

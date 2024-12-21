@@ -1,0 +1,42 @@
+.Header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.Header h1 {
+    font-family: "Playfair Display", serif;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    color: var(--primary-color-light);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    position: relative;
+}
+
+.Header img {
+    height: 48px;
+    color: #FFE4B5;
+    filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.2));
+    transition: transform 0.3s ease;
+}
+
+.Header:hover img {
+    transform: rotate(-15deg);
+}
+
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    text-decoration: none;
+}
+
+@media (max-width: 768px) {
+    .Header h1 {
+        font-size: 1.75rem;
+    }
+}
